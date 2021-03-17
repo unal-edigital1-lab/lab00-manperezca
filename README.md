@@ -8,4 +8,6 @@ Para el Out tenemos:
 ![GitHub Logo](/docs/Out.png)   
 Para el Cout tenemos:  
 ![GitHub Logo](/docs/Cout.png)   
+Con estas ecuaciones reducidas, podemos plantear el diseño según las operaciones reducidas que allí encontramos:  
+![GitHub Logo](/docs/diseño.png) 
 
