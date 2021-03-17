@@ -5,6 +5,6 @@ Presentado por: Manuel Alejandro Pérez Carvajal
 
 Al diseñar el sumador de un bit completo, primero analizamos los mapas de Karnaugh para Out y Cout (donde básicamente Out es la suma y Cout es el carry).    
 Para el Out tenemos:  
-![GitHub Logo](/docs/Out.png)    
+<p align="center"> ![GitHub Logo](/docs/Out.png) </p>  
 Para el Cout tenemos:  
-![GitHub Logo](/docs/Cout.png) 
+<p align="center"> ![GitHub Logo](/docs/Cout.png) </p> 
