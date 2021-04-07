@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/quartus/simulation/modelsim
 vsum1bcc
-!s110 1617762366
+!s110 1617762811
 !i10b 1
 !s100 kbd>86O=0<2:dcRSLWeg_0
 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -26,7 +26,7 @@ OV;L;2020.1;71
 r1
 !s85 0
 31
-!s108 1617762366.000000
+!s108 1617762810.000000
 !s107 C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/src/sum1bcc.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/src|C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/src/sum1bcc.v|
 !i113 1

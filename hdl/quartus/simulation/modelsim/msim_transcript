@@ -12,28 +12,18 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/src {C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/src/sum1bcc.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:26:06 on Apr 06,2021
+# Start time: 21:33:30 on Apr 06,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/src" C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/src/sum1bcc.v 
 # -- Compiling module sum1bcc
 # 
 # Top level modules:
 # 	sum1bcc
-# End time: 21:26:06 on Apr 06,2021, Elapsed time: 0:00:00
+# End time: 21:33:31 on Apr 06,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 vsim work.sum1bcc
 # vsim work.sum1bcc 
-# Start time: 21:26:50 on Apr 06,2021
+# Start time: 21:33:37 on Apr 06,2021
 # Loading work.sum1bcc
-add wave -position insertpoint  \
-sim:/sum1bcc/A \
-sim:/sum1bcc/B \
-sim:/sum1bcc/Ci \
-sim:/sum1bcc/Cout \
-sim:/sum1bcc/S
-force -freeze sim:/sum1bcc/A 1 0
-force -freeze sim:/sum1bcc/B 0 0
-force -freeze sim:/sum1bcc/Ci 0 0
-run
-# End time: 21:30:45 on Apr 06,2021, Elapsed time: 0:03:55
+# End time: 21:33:45 on Apr 06,2021, Elapsed time: 0:00:08
 # Errors: 0, Warnings: 0
