@@ -5,5 +5,5 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -vlog01compat -work work +incdir+C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src {C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/sum1bcc.v}
+vlog -vlog01compat -work work +incdir+C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/src {C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/src/sum1bcc.v}
 

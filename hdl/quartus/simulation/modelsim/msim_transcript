@@ -1,42 +1,39 @@
-# Reading C:/intelFPGA_lite/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# Reading pref.tcl
 # do lab01-sumador_run_msim_rtl_verilog.do
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
 # }
 # vlib rtl_work
 # vmap work rtl_work
-# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
 # vmap work rtl_work 
-# Copying C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src {C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/sum1bcc.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:28:11 on Sep 16,2020
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src" C:/Users/UECCI/Documents/GitHub/UNAL/Digital1-2020-2/lab01/hdl/src/sum1bcc.v 
+# vlog -vlog01compat -work work +incdir+C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/src {C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/src/sum1bcc.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:26:06 on Apr 06,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/src" C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/src/sum1bcc.v 
 # -- Compiling module sum1bcc
 # 
 # Top level modules:
 # 	sum1bcc
-# End time: 11:28:11 on Sep 16,2020, Elapsed time: 0:00:00
+# End time: 21:26:06 on Apr 06,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 vsim work.sum1bcc
 # vsim work.sum1bcc 
-# Start time: 11:28:52 on Sep 16,2020
+# Start time: 21:26:50 on Apr 06,2021
 # Loading work.sum1bcc
-add wave sim:/sum1bcc/*
+add wave -position insertpoint  \
+sim:/sum1bcc/A \
+sim:/sum1bcc/B \
+sim:/sum1bcc/Ci \
+sim:/sum1bcc/Cout \
+sim:/sum1bcc/S
 force -freeze sim:/sum1bcc/A 1 0
-force -freeze sim:/sum1bcc/B 1 0
+force -freeze sim:/sum1bcc/B 0 0
 force -freeze sim:/sum1bcc/Ci 0 0
 run
-force -freeze sim:/sum1bcc/A 0 0
-run
-restart
-run
-force -freeze sim:/sum1bcc/A 1 0, 0 {50 ps} -r 100
-force -freeze sim:/sum1bcc/B 1 0, 0 {100 ps} -r 200
-force -freeze sim:/sum1bcc/Ci 1 0, 0 {200 ps} -r 400
-run
-# End time: 12:15:13 on Sep 16,2020, Elapsed time: 0:46:21
+# End time: 21:30:45 on Apr 06,2021, Elapsed time: 0:03:55
 # Errors: 0, Warnings: 0
