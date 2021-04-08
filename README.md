@@ -7,7 +7,7 @@ Para dar inicio al laboratorio, se realizó la descarga de Quartus y el primer a
 
 Como se mencionó, el primer código para el sumador de un bit, estaba dado en la guía y en los archivos clonados. Sin embargo, se hizo un análisis de este para entender un poco el lenguaje de programación.
 
-# Sumador de 1 bit
+## Sumador de 1 bit
 Se hizo uso del siguiente código:
 ```verilog
 module sum1bcc (A, B, Ci,Cout,S);
