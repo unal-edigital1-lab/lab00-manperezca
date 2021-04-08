@@ -1,7 +1,7 @@
 # lab01- sumador 
 laboratorio 01 introducción a HDL
 
-## Presentado por: Manuel Alejandro Pérez Carvajal
+### Presentado por: Manuel Alejandro Pérez Carvajal
 
 Para dar inicio al laboratorio, se realizó la descarga de Quartus y el primer acercamiento a este software mediante la implementación de un sumador de 1 bit. Sin embargo, en este primer intento, se contó con un inconveniente que venía dado al abrir el archivo lab01-sumador (el cual tiene el primer código), donde Quartus arrojaba un error; la solución a este problema fue muy sencilla y con la eliminación de las carpetas db, incremental_db y simulation, fue suficiente para corregirlo ya que Quartus estaba tomando archivos que contenían información de una versión pasada.
 
