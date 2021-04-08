@@ -33,7 +33,9 @@ Siguiente a esto, se forzó las dos entradas para validar todas las posibles ent
 
 ![Sumador1bcc](/images/TBsum1bcc.png)
 
+Allí notamos que funciona perfectamente como un sumador de 1 bit.
 
+## Sumador de 4 Bits
 
  
 
