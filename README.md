@@ -146,15 +146,17 @@ Posterior a ello, debemos asignar los pines que usaremos para sintetizar el prog
 ![Sumador1bcc](/images/pines.png)
 ### Netlist Viewers
 Dentro de la implementación, tendremos la oportunidad de visualizar las conexiones entre los pines de entrada y salida junto a las cajas lógicas utilizadas en el programa. Un ejemplo es el RTL Viewer el cual se observa a continuación:
+
 ![Sumador1bcc](/images/rtlviewer.png)
+
 Otra visualización importante está dada por el technology map viewer (post-mapping), donde se evidencias las conexiones realizadas entre el sumador y los pines utilizados de la fpga. Esta visualización se puede observar en la siguiente imagen:
 ![Sumador1bcc](/images/postmapping.png)
 Continuando con la implementación de la FPGA, no queda más que conectarla mediante el usb blaster y alimentar la tarjeta (instalando los certificados y drivers previamente). Sintetizando el programa, obtenemos los siguientes resultados en la tarjeta:
-![Sumador1bcc](/images/resultado1.png)
-![Sumador1bcc](/images/resultado2.png)
-![Sumador1bcc](/images/resultado3.png)
-![Sumador1bcc](/images/resultado4.png)
-![Sumador1bcc](/images/resultado5.png)
-![Sumador1bcc](/images/resultado6.png)
-![Sumador1bcc](/images/resultado7.png)
-![Sumador1bcc](/images/resultado8.png)
+![Sumador1bcc](/images/resultado1.jpg)
+![Sumador1bcc](/images/resultado2.jpg)
+![Sumador1bcc](/images/resultado3.jpg)
+![Sumador1bcc](/images/resultado4.jpg)
+![Sumador1bcc](/images/resultado5.jpg)
+![Sumador1bcc](/images/resultado6.jpg)
+![Sumador1bcc](/images/resultado7.jpg)
+![Sumador1bcc](/images/resultado8.jpg)
