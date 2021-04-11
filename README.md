@@ -139,7 +139,9 @@ A partir de esto, se utiliza el RTL simulation para poder observar las salidas r
 
 ## Implementación de la FPGA
 Lo primero que se debe realizar para implementar la FPGA en Quartus, es realizar la asignación de la tarjeta que estamos usando, como se puede observar en la siguiente imagen:
+
 ![Sumador1bcc](/images/fpga-asignada.png)
+
 Posterior a ello, debemos asignar los pines que usaremos para sintetizar el programa. En este caso sinterizaremos el sumador de 4 bits y la asignación de pines queda de la siguiente manera:
 ![Sumador1bcc](/images/pines.png)
 ### Netlist Viewers
