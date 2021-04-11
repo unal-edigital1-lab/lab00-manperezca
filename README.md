@@ -74,6 +74,7 @@ Allí notamos que funciona perfectamente como un sumador de 1 bit.
 ## Sumador de 4 Bits
 Para realizar el sumador de 4 bits básicamente se hizo uso del sumador de 1bit instanciando este sumador 4 veces. El código a utilizar fue el siguiente:
 ```verilog
+`timescale 1ns / 1ps
 module sum4b(xi, yi,co,zi);
 
 
@@ -94,6 +95,7 @@ endmodule
 ````
 Seguido a esto y antes de observar el RTL simulation, generamos el TestBench con el ánimo de cumplir los mismos objetivos anteriormente dichos en el sumador de 1 bit. El TestBench utilizado es el siguiente:
 ```verilog
+`timescale 1ns / 1ps
 module sum4b_TB;
 
   reg [3:0] A;
