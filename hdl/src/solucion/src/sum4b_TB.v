@@ -27,7 +27,7 @@ module sum4b_TB;
 	 for (B = 0; B < 16; B = B + 1) begin
       if (B==0)
         A=A+1;
-      #2 ;
+      #5 ;
 		$display("El valor de %d + %d = %d",A, B,S) ;
     end
 	
@@ -36,7 +36,7 @@ module sum4b_TB;
   initial begin: TEST_CASE
      $dumpfile("sum4b_TB.vcd");
      $dumpvars(-1, uut);
-     #(200) $finish;
+     #(1200) $finish;
    end
 
 

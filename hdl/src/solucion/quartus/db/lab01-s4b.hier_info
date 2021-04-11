@@ -7,11 +7,11 @@ yi[0] => yi[0].IN1
 yi[1] => yi[1].IN1
 yi[2] => yi[2].IN1
 yi[3] => yi[3].IN1
-co << sum1bcc:s3.Cout
-zi[0] << sum1bcc:s0.S
-zi[1] << sum1bcc:s1.S
-zi[2] << sum1bcc:s2.S
-zi[3] << sum1bcc:s3.S
+co <= sum1bcc:s3.Cout
+zi[0] <= sum1bcc:s0.S
+zi[1] <= sum1bcc:s1.S
+zi[2] <= sum1bcc:s2.S
+zi[3] <= sum1bcc:s3.S
 
 
 |sum4b|sum1bcc:s0
