@@ -1,5 +1,5 @@
 Fitter report for lab01-s4b
-Wed Apr 07 20:55:07 2021
+Sat Apr 10 21:51:07 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Wed Apr 07 20:55:07 2021       ;
+; Fitter Status                      ; Successful - Sat Apr 10 21:51:07 2021       ;
 ; Quartus Prime Version              ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                      ; lab01-s4b                                   ;
 ; Top-level Entity Name              ; sum4b                                       ;
@@ -887,8 +887,8 @@ Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
 Info (144001): Generated suppressed messages file C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/src/solucion/quartus/output_files/lab01-s4b.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
     Info: Peak virtual memory: 5484 megabytes
-    Info: Processing ended: Wed Apr 07 20:55:07 2021
-    Info: Elapsed time: 00:00:03
+    Info: Processing ended: Sat Apr 10 21:51:07 2021
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:03
 
 
