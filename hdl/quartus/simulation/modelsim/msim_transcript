@@ -12,29 +12,29 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/src {C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/src/sum1bcc.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:22:43 on Apr 07,2021
+# Start time: 21:24:29 on Apr 12,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/src" C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/src/sum1bcc.v 
 # -- Compiling module sum1bcc
 # 
 # Top level modules:
 # 	sum1bcc
-# End time: 20:22:43 on Apr 07,2021, Elapsed time: 0:00:00
+# End time: 21:24:30 on Apr 12,2021, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/quartus/../src {C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/quartus/../src/sum1bcc_TB.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 20:22:43 on Apr 07,2021
+# Start time: 21:24:30 on Apr 12,2021
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/quartus/../src" C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/quartus/../src/sum1bcc_TB.v 
 # -- Compiling module sum1bcc_TB
 # 
 # Top level modules:
 # 	sum1bcc_TB
-# End time: 20:22:43 on Apr 07,2021, Elapsed time: 0:00:00
+# End time: 21:24:30 on Apr 12,2021, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  sum1bcc_TB
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" sum1bcc_TB 
-# Start time: 20:22:43 on Apr 07,2021
+# Start time: 21:24:30 on Apr 12,2021
 # Loading work.sum1bcc_TB
 # Loading work.sum1bcc
 # 
@@ -50,5 +50,5 @@
 #    Time: 200 ps  Iteration: 0  Instance: /sum1bcc_TB
 # 1
 # Break in NamedBeginStat TEST_CASE at C:/Users/MANUEL/Documents/GitHub/lab00-manperezca/hdl/quartus/../src/sum1bcc_TB.v line 31
-# End time: 20:22:54 on Apr 07,2021, Elapsed time: 0:00:11
+# End time: 21:24:44 on Apr 12,2021, Elapsed time: 0:00:14
 # Errors: 1, Warnings: 0
